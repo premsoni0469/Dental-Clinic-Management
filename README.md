@@ -8,12 +8,52 @@
 
 Here're some of the project's best features:
 
-*   <b>Appointment Booking:</b> Patients can book both regular and emergency appointments.
-*   <b>OTP Verification:</b> An OTP is sent to the patient's registered email ID for account verification.
-*   <b>Email Confirmation:</b> An email confirmation is sent to the patient upon successful booking of an appointment
-*   <b>Appointment Rescheduling:</b> In case an emergency appointment overlaps with a regular appointment the regular appointment can be rescheduled and a notification email is sent to the patient.
-*   <b>Appointment Cancellation:</b> Doctors can cancel a particular appointment if necessary.
-*   <b>Prescription Management:</b> Doctors can give prescriptions to patients through the application.
+*   Appointment Booking: Patients can book both regular and emergency appointments.
+*   OTP Verification: An OTP is sent to the patient's registered email ID for account verification.
+*   Email Confirmation: An email confirmation is sent to the patient upon successful booking of an appointment
+*   Appointment Rescheduling: In case an emergency appointment overlaps with a regular appointment the regular appointment can be rescheduled and a notification email is sent to the patient.
+*   Appointment Cancellation: Doctors can cancel a particular appointment if necessary.
+*   Prescription Management: Doctors can give prescriptions to patients through the application.
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone the Repository</p>
+
+```
+git clone https://github.com/yourusername/dental-clinic-management.git
+cd dental-clinic-management
+```
+<br>
+<p>2. Create and Activate a Virtual Environment</p>
+
+```
+python -m venv
+env source env/bin/activate # On Windows use `env\Scripts\activate`
+```
+<br>
+<p>3. Install Dependencies</p>
+
+```
+pip install -r requirements.txt
+```
+<br>
+<p>4. Run Migrations</p>
+
+```
+python manage.py migrate
+```
+<br>
+<p>5. Create a Superuser</p>
+
+```
+python manage.py createsuperuser
+```
+<br>
+<p>6. Run the Server</p>
+
+```
+python manage.py runserver
+```
 
   
   
@@ -27,4 +67,4 @@ Technologies used in the project:
 
 <h2>💖Like my work?</h2>
 
-For any inquiries or support please contact me at <b>premsoni0469@gmail.com</b>
+For any inquiries or support please contact me at premsoni0469@gmail.com
